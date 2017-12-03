@@ -5,7 +5,7 @@ Lua and PostgreSQL console game
    
    createdb vr
    
-   psql -f ruletka.sql
+   psql -f vr.sql
    
    lua ruletka.lua
  
