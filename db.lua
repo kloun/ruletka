@@ -30,7 +30,7 @@ function dbCountGames(id, points)
       local cur = assert(con:execute("select count(userid) from games where userid = '"..tostring(id).."';"))
       local ROW = cur:fetch({})
       return ROW[1]
-   elseif points == 3 or points == 1 or points == -3 then
+    elseif points == 3 or points == 1 or points == -3 then
       local cur = assert(con:execute("select count(userid) from games where userid = '"..tostring(id).."' AND points ='".. tostring(points).."';"))
       local ROW = cur:fetch({})
       return ROW[1]
