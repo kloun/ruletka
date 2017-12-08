@@ -1,7 +1,7 @@
 # ruletka
 Lua and PostgreSQL console game
 # install and use ruletka
-   install postresql, lua and luasql Ihttps://keplerproject.github.io/luasql/) 
+   install postgresql, lua and lua-sql (https://keplerproject.github.io/luasql/) 
    
    createdb vr
    
